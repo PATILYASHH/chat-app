@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to the Chat Dashboard</h1>
-        <button id="logoutButton">Logout</button>
-    </header>
-    <main>
-        <div id="chatMessages"></div>
-        <form id="messageForm">
-            <input type="text" id="messageInput" placeholder="Type your message...">
-            <button type="submit">Send</button>
-        </form>
-    </main>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chat Room</h2>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
     <script src="dashboard.js"></script>
 </body>
 </html>

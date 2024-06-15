@@ -1,0 +1,43 @@
+/* Existing styles from previous dashboard.css */
+
+main {
+    padding: 20px;
+}
+
+#chatMessages {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#messageForm {
+    display: flex;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+#messageInput:focus {
+    outline: none;
+}
+
+#messageForm button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#messageForm button:hover {
+    background-color: #45a049;
+}
